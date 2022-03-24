@@ -4,6 +4,7 @@
 name: Deploy Resume
 
 on:
+  workflow_dispatch:
   push:
     branches: [master]
 jobs:
